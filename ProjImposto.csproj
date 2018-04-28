@@ -47,6 +47,7 @@
     <Compile Include="Imposto\IVA_Luxo.cs" />
     <Compile Include="Imposto\IVA_Normal.cs" />
     <Compile Include="Imposto\IVA_Reduzido.cs" />
+    <Compile Include="Imposto\IVA_Test.cs" />
     <Compile Include="Imposto\I_Imposto.cs" />
     <Compile Include="Imposto\Orcamento.cs" />
     <Compile Include="Program.cs" />

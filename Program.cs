@@ -20,6 +20,7 @@ namespace ProjImposto
             objCalculador.RealizaCalculo(objOrc, new IVA_Isento());
             objCalculador.RealizaCalculo(objOrc, IVA_N);
             objCalculador.RealizaCalculo(objOrc, new IVA_Luxo());
+            objCalculador.RealizaCalculo(objOrc, new IVA_Test());
             Console.ReadKey();
 
         }

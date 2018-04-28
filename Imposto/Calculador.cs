@@ -11,7 +11,7 @@ namespace ProjImposto.Imposto
         //1 única responsabilidade-> COESÃO
         public void RealizaCalculo(Orcamento orcamento, I_Imposto tipoImposto)
         {
-            Console.WriteLine (tipoImposto.Calcula(orcamento));
+            Console.WriteLine ("Valor:"+tipoImposto.Calcula(orcamento));
         }
     }
 }

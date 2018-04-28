@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjImposto.Imposto
 {
-    public class Orcamento
+    class IVA_Test : I_Imposto
     {
-        public double Valor { get; private set; }
-
-        public Orcamento(double valor)
-        {
-            Valor = valor;
-        }
+        public double Calcula(Orcamento montante) => montante.Valor + montante.Valor * 0.3;
     }
 }
